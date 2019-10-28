@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk-alpine
 MAINTAINER paladintyrion <paladintyrion@gmail>
 
-ENV CEREBRO_VERSION 0.7.1
+ENV CEREBRO_VERSION 0.8.4
 ENV CEREBRO_HOME /opt/cerebro
 ENV URL "https://github.com/lmenezes/cerebro/releases/download"
 ENV TARBALL "$URL/v${CEREBRO_VERSION}/cerebro-${CEREBRO_VERSION}.tgz"
